@@ -174,9 +174,15 @@ body{
 	color: #414249;
 	transition: 0.2s linear;
 }
+.footer-wrap{
+	text-align: center;
+}
 .banner-a img{
 	padding-top: 40px;
 	padding-bottom: 30px;
+}
+.banner-m{
+	display: none;
 }
 .line{
 	border-bottom: 1px solid #b0b0b0;
@@ -236,12 +242,17 @@ body{
 	.container{
 	max-width: 370px;
     margin: 0 auto;
-}
+	}
 	.container-botton{
 	max-width: 370px;
     margin: 0 auto;
     background: #fff;
-}
+	}
+	.banner-m{
+	display: block;
+	max-width: 345px;
+	margin:0 auto;
+	}
 	.footer-text-wrap{
 		max-width: 300px;
 		margin:0 auto;
